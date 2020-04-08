@@ -150,7 +150,6 @@ class Agent():
         if not checkpoint['hidden_layers'] == my_hidden_layers:
             print(f"Error when loading weights from checkpoint {filename}: hidden layers {checkpoint['hidden_layers']} don't match agent's hidden layers {my_hidden_layers}")
             return None
-        print("loading network")
         self.qnetwork_local.load_state_dict(checkpoint['state_dict'])
         self.qnetwork_target = self.qnetwork_local
 
