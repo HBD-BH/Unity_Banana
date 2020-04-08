@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+# Similar to Deep Q-Network lecture exercise and the PyTorch extracurricular Content
 class QNetwork(nn.Module):
     def __init__(self, input_size, output_size, seed, hidden_layers=[64,64]):
         ''' Builds a feedforward network with arbitrary hidden layers.

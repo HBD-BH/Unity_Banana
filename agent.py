@@ -17,6 +17,7 @@ UPDATE_EVERY = 4        # how often to update the network
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
+# Main parts taken from the Deep Q-Networks lecture exercises
 class Agent():
     """Interacts with and learns from the environment."""
 
