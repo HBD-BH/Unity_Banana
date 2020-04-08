@@ -11,11 +11,15 @@
 
 *.log
 
-Banana_Linux/
+Banana_Linux/Banana_Data/
+
+Banana_Linux/Banana.x86
 
 Banana_Linux.zip
 
 doc/mk
+
+doc/mk~
 
 doc/*.tex
 
