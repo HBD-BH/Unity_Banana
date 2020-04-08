@@ -7,10 +7,18 @@
 
 .*.*.un~
 
-.ipynb_checkpoints/
+#.ipynb_checkpoints/
 
 *.log
 
 Banana_Linux/
 
 Banana_Linux.zip
+
+doc/mk
+
+doc/*.tex
+
+Navigation_Pixels.ipynb
+
+__pycache__/
