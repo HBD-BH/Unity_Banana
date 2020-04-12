@@ -28,7 +28,7 @@ class QNetwork(nn.Module):
     def forward(self, x):
         ''' Forward pass through the network, returns the output logits '''
         
-        # Forward through each layer in `hidden_layers`, with ReLU activation and dropout
+        # Forward through each layer in `hidden_layers`, with ReLU activation
         for linear in self.hidden_layers:
             x = F.relu(linear(x))
         
